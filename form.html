@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 25px;
+            padding-left: 20px;
+            color: rebeccapurple;
+        }
+        .div-class{
+            padding-right: 25px;
+        }
+        .login-form-container{
+            display: flex;
+            justify-content: center;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 1px solid slategrey;
+            margin-top: 20px;
+        }
+        .login-form input{
+            margin-top: 20px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        #h2-con{
+            text-align: center;
+        }
+        #submit{
+            background-color: coral;
+            width: 40%;
+            margin-left: 120px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <a class="div-class" href="">Login</a>
+    </nav>
+    <section class="login-form-container">
+        <form class="login-form">
+            <h2 id="h2-con">Please Login</h2>
+            <input type="email" name="" id="" placeholder="Enter Your Email:" required>
+            <input type="password" name="" id="" placeholder="Enter Your Password:" required>
+            <input type="number" name="" id="" placeholder="Enter Your Phone Number:">
+            <input id="submit" type="submit" id="" name="" value="Login">
+    
+        </form>
+    </section>
+</body>
+</html>
